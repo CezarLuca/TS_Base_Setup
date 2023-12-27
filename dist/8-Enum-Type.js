@@ -1,0 +1,18 @@
+"use strict";
+console.log("Numeric Enums");
+console.log(1);
+const studentRollNumber1 = 5;
+const studentRollNumber2 = 2;
+console.log(studentRollNumber1, studentRollNumber2);
+console.log("String Enums");
+const studentName = "John";
+const studentMajor = "Computer Science";
+const studentClass = "Senior";
+console.log(studentName, studentMajor, studentClass);
+console.log("Heterogeneous Enums");
+const studentName1 = "John";
+const studentMajor1 = "Computer Science";
+const studentClass1 = "Senior";
+const studentID1 = 1234;
+const studentAge1 = 21;
+console.log(`${studentID1} - ${studentName1} has a major in ${studentMajor1} and is a ${studentClass1} at the age of ${studentAge1}`);
